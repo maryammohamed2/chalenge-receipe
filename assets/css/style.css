@@ -1,34 +1,55 @@
 
 
-head{
-    background-color: hsl(30, 54%, 80%);
-}
-
 
 /*.img{
     justify-content:  center;
     align-items: center;
  }
  */
- .container{
-    width: 50%;
-    text-align: left;
-    justify-content: center;
-    border-radius: 3;
-    
+ @font-face {
+   font-family: "Young Serif";
+   src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
+}
+ .home{
+   background-color: hsl(30, 54%, 80%);
+   font-family: "Young Serif";
+   font-weight: 100;
+   font-size: 1vw;
  }
 
+ .container{
+    justify-content: center;
+    align-items: centre;
+    text-align: left;
+    border-radius: 3;
+    font-family: "Young Serif" !important;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+  width: 50%;
+  border: 1px;
+  padding: 10px;
+  border-radius: 25px;
+ }
 
-
+.sec-2{
+   background-color: hsl(30, 54%, 80%);
+   border: 1px;
+   padding: 10px;
+   border-radius: 25px;
+}
 #img-1{
 justify-content: center;
-width: 50%;
+width: 100%;
+border: 1px;
+padding: 10px;
+border-radius: 25px;
+
 }
 
 .tittle{
     text-align: left;
     
-    font-family: [Young Serif];
+    
     color: hsl(332, 51%, 32%);
     
  }
@@ -61,7 +82,10 @@ color: hsl(14, 45%, 36%);
   th, td {
     padding: 8x;
     text-align: left;
-    border-bottom: 10px solid hsl(30, 10%, 34%);
+    border-bottom: 2px solid hsl(30, 18%, 87%);
+    border-radius: 25px;
+   
+
   }
   .me{
     color: hsl(14, 45%,15);
@@ -71,14 +95,22 @@ color: hsl(14, 45%, 36%);
 
   }
 
-  @media screen and (max-width:320) and(min-width:375px)
+  @media screen and (min-width:320px) and (max-width:374px)
    {
      .container{
-        width: 50%;
-     }
+        width: 100%;
+     }  
+      
+  
   }
-  @media screen and (max-width:375) and(min-width:1440px){
+  @media screen and (min-width:375px) and (max-width:1440px){
  .container{
-    width: 100%;
+    width: 50%;
  }
-  }
+  
+    }
+   /* @media   screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+      }
+    }*/
