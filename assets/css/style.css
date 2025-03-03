@@ -32,10 +32,14 @@
  }
 
 .sec-2{
-   background-color: hsl(30, 54%, 80%);
+   background-color:hsl(30, 54%, 90%);
    border: 1px;
    padding: 10px;
    border-radius: 25px;
+   color:hsl(30, 10%, 34%) ;
+}
+.le{
+   color: hsl(24, 5%, 18%);
 }
 #img-1{
 justify-content: center;
@@ -48,10 +52,7 @@ border-radius: 25px;
 
 .tittle{
     text-align: left;
-    
-    
-    color: hsl(332, 51%, 32%);
-    
+    color: hsl(24, 5%, 18%);
  }
 
  .prepration{
@@ -61,29 +62,51 @@ color: hsl(14, 45%, 36%);
 
  .p1 {
     font-size: 16px;
+     color:hsl(30, 10%, 34%);
+ }
+ h4{
+   color: hsl(332, 51%, 32%);
  }
  .ingre{
     color: hsl(14, 45%, 36%);
  }
- .inst{
-    color:hsl(14, 45%, 36%) ;
+ .sec-3{
+   color:hsl(30, 10%, 34%) ;
  }
+ .sec-4{
+   color:hsl(14, 45%, 36%) ;
+ }
+ .p-4{
+   color:hsl(30, 10%, 34%) ;
+ }
+ .ins1{
+   color: hsl(24, 5%, 18%);
+ }
+   
  .nut{
     color:hsl(14, 45%, 36%) ;
  }
  span{
     font-weight: 400;
  }
+ .sect-5{
+  color:hsl(30, 10%, 34%) ;
+}
+.td-1{
+   color:hsl(14, 45%, 36%) ;
+}
  table {
     border-collapse: collapse;
     width: 100%;
+    
   }
   
   th, td {
-    padding: 8x;
+    padding: 12px ;
     text-align: left;
     border-bottom: 2px solid hsl(30, 18%, 87%);
     border-radius: 25px;
+    margin: auto;
    
 
   }
@@ -94,7 +117,10 @@ color: hsl(14, 45%, 36%);
     margin: auto;
 
   }
-
+/*hr{
+   color:hsl(30, 10%, 34%) ;
+   padding: .3125rem,0rem;
+}*/
   @media screen and (min-width:320px) and (max-width:374px)
    {
      .container{
