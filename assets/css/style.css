@@ -44,9 +44,10 @@
 #img-1{
 justify-content: center;
 width: 100%;
-border: 1px;
+/*border: 10px;*/
 padding: 10px;
 border-radius: 25px;
+position:  relative;
 
 }
 
@@ -125,6 +126,7 @@ color: hsl(14, 45%, 36%);
    {
      .container{
         width: 100%;
+        font-size: 16px;
      }  
       
   
