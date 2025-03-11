@@ -10,11 +10,21 @@
    font-family: "Young Serif";
    src: url('../fonts/young-serif/YoungSerif-Regular.ttf');
 }
+body{
+  width: 100%;
+  height: 100%;
+}
  .home{
-   background-color: hsl(30, 54%, 80%);
+   background-color: hsl(30, 54%, 90%);
+   
    font-family: "Young Serif";
    font-weight: 100;
    font-size: 1vw;
+   padding: 80px;
+   font-size: 16px
+   
+   
+    
  }
 
  .container{
@@ -27,19 +37,25 @@
     margin: auto;
   width: 50%;
   border: 1px;
-  padding: 10px;
+  padding: 30px;
   border-radius: 25px;
- }
-
+  
+  
+}
 .sec-2{
-   background-color:hsl(30, 54%, 90%);
+   background-color:hsl(330, 100%, 98%);
    border: 1px;
    padding: 10px;
    border-radius: 25px;
-   color:hsl(30, 10%, 34%) ;
+   color: hsl(332, 51%, 32%) ;
+    
 }
 .le{
    color: hsl(24, 5%, 18%);
+   font-weight: 800;
+}
+.l{
+ color:  hsl(30, 10%, 34%) ;
 }
 #img-1{
 justify-content: center;
@@ -54,6 +70,7 @@ position:  relative;
 .tittle{
     text-align: left;
     color: hsl(24, 5%, 18%);
+     
  }
 
  .prepration{
@@ -64,15 +81,17 @@ color: hsl(14, 45%, 36%);
  .p1 {
     font-size: 16px;
      color:hsl(30, 10%, 34%);
+     
  }
  h4{
    color: hsl(332, 51%, 32%);
  }
- .ingre{
-    color: hsl(14, 45%, 36%);
- }
+ 
  .sec-3{
-   color:hsl(30, 10%, 34%) ;
+  color: hsl(14, 45%, 36%);
+ }
+ .in{
+   color:hsl(30, 10%, 34%);
  }
  .sec-4{
    color:hsl(14, 45%, 36%) ;
@@ -82,6 +101,8 @@ color: hsl(14, 45%, 36%);
  }
  .ins1{
    color: hsl(24, 5%, 18%);
+   font-weight: 800;
+   
  }
    
  .nut{
@@ -103,7 +124,7 @@ color: hsl(14, 45%, 36%);
   }
   
   th, td {
-    padding: 12px ;
+    padding: 16px ;
     text-align: left;
     border-bottom: 2px solid hsl(30, 18%, 87%);
     border-radius: 25px;
